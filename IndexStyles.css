@@ -1,0 +1,176 @@
+.bellefair-regular {
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.barlow-condensed-regular {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bellefair";
+    scroll-behavior: smooth;
+}
+
+body{
+    background: url(/assets/home/background-home-desktop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header{
+    margin: 50px;
+    border: 10px solid transparent;
+    overflow: auto;
+}
+
+.bold{
+    font-weight: 500;
+    font-family: "Barlow Condensed";
+}
+
+.logo{
+    width: 5.5%;
+    float: left;
+    border: 10px solid transparent;
+}
+
+.divider{
+    width: 44.5%;
+    border: 1.5px solid rgb(95, 95, 95);
+    float: left;
+    margin-top: 35px;
+    padding-left: 90px;    
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    /* border: 1px solid red; */
+}
+
+.navigation a{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    margin-right: 50px;
+    padding-bottom: 10px;
+    /* border: 1px solid red; */
+    font-family: "Barlow Condensed";
+    font-size: 20px;
+    letter-spacing: 4.75px;
+    padding-bottom: 22px;
+}
+
+.navigation a:hover{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.63);
+}
+
+
+/* *************************** */
+
+.container-main{
+    overflow: auto;
+    width: 100%;
+}
+.content{
+    font-family: "Barlow Condensed";
+    font-size: 20px;
+    border: 1px solid transparent;
+    /* width: 450px; */
+    /* padding-right: 450px; */
+    height: 382px;
+    color: #fff;
+    margin: 250px 0 0 160px;
+    width: 40%;
+    float: left;
+}
+
+.content h5{
+    font-family: "Barlow Condensed";
+    font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 4.75px;
+    margin-bottom: 20px;
+}
+
+.content h1{
+    font-size: 150px;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.content p{
+    font-size: 22px;
+    line-height: 30px;
+    font-family: "Barlow Condensed";
+    width: 65%;
+}
+
+.explorebtn {
+    float: left;
+    width: 50%;
+    height: 382px;
+    margin: auto;
+    border: 10px solid transparent;
+    margin-top: 250px;
+    padding-left: 390px;
+
+}
+
+.explorebtn a{
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 110px 60px;
+    letter-spacing: 1px;
+    border-radius: 50%;
+    margin-top: 70px;
+    font-size: 32px;
+    transition: 0.5s ease;
+}
+.explorebtn a:hover{
+    transform: scale(1.2);
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
